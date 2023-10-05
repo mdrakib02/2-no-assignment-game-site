@@ -1,0 +1,57 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&family=Work+Sans:wght@400;600;800&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/* ------------------------------------ */
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-title{
+  
+    font-size: 3rem;
+    font-weight: 700;
+}
+.g-color{
+    color: #FF42A5;
+    
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+.nav-content li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    margin-right: 30px;
+}
+.follow-us{
+    display: flex;
+    gap: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+.follow-us .follow-img{
+    width: 23px;
+    height: auto;
+}
+.follow-us{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 7px 13px;
+
+}
