@@ -54,7 +54,7 @@
 /* -----------------Banner styles-------------------------------------- */
 .banner-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -101,18 +101,187 @@
     border-radius: 48px;
     padding: 16px 30px;
 }
+.banner-img img{
+    width: 100%;
+    height: auto;
+}
+/* ---------------------styles main sections---------------------------- */
+.gamer-banner{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+.gamer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 52px;
+    margin: 0;
+}
 
+.gamer-content{
+    text-align: right;
+    width: 700px;
+}
+.gamer-title{
+    font-size: 3rem;
+    font-weight: 700;
+    /* color: #8758F1; */
+    color: #F948B2;
+}
+.gamer-description{
+    font-size: 1rem;
+    font-weight:500;
+    width: 600px;
+    margin-bottom: 30px;
+    width: 520px;
+}
+.gamer-subtitle{
+    text-align: right;
+}
+.gamer-span{
+    font-size: 2rem;
+    font-weight: 600;
+}
 
+.gamer-img img{
+ width: 868px;
+}
+/* -------------------------styles video Section-------------------------------------- */
+ .video-section{
+    display: flex;
+    justify-content: space-around;
+ }
+ .video-content img, .video-content-sub-title{
+    width: 342px;
+ }
+ .video-content, .btn-png1 img{
+    width: 342px;
+ }
 
+ .play-btn img{
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 4px solid var(--Linear, #FF42A5);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+ }
 
+ .box{
+    position: relative;
+ }
+    
+ .video-content .png-2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 98px;
+    height: 98px;
+ }
+/* -----------------styles Play Section------------------------------ */
 
+.play-section{
+    display: flex;
+    gap: 120px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.play-section-content{
+    padding-left: 150px;
+    text-align: right;
+}
+.play-section-title{
+    font-size: 3rem;
+    font-weight: 700;
+    width: 500px;
+}
+.play-section-description{
+    font-size: 1rem;
+    font-weight: normal;
+    width: 500px;
+}
+.play-section-img{
+    height: 760px;
+}
+.play-section-img .play-img1{
+    width: 635px;
+    height: 650px;
+}
+.play-section-img .play-img2{
+    width: 318px;
+    height: 365px;
+    position: relative;
+    bottom: 220px;
+    right: 150px;
+}
+.play-section-img .play-img2{
+    position: relative;
+    
+}
 
+/* ---------------------play-online-section styles---------------------- */
+.play-online-section{
+    display: flex;
+    justify-content: space-between;
+}
+.play-online-section .online-img1{
+    width: 710px;
+    height: 650px;
+}
+.play-online-section .online-img2{
+    width: 318px;
+    height: 365px;
+    position: relative;
+    left: 70%;
+    bottom: 25%;
+}
+.g2-color{
+    color: #8758F1;
+}
 
+/* ----------------------------------Career Section style--------------------------------------- */
+.Career{
+    background-color: #F948B2;
+}
+.career-section{
+    display: flex;
+    justify-content: space-between;
+}
 
+.career-img img{
+    width: 800px;
+    height: 610px;
+}
+.career-content > h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color: aliceblue;
+}
+.career-content > p{
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 1rem;
+}
+.career-sub-section{
+    display: flex;
+    gap: 100px;
+}
+.career-sub-section p{
+    font-size: 1rem;
+    font-weight: normal;
+    color: aliceblue;
+}
+.career-content .carer-btn{
+   font-size: 1rem;
+   font-weight: 500;
+   color: #F948B2;
+   background-color: aliceblue;
+   border: 0;
+   border-radius: 50px;
+   padding: 10px 15px;
+   margin-top: 40px;
 
-
-
-
+}
 
 @media screen and (max-width: 576px ){
     .nav-section, .nav-content{
