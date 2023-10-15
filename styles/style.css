@@ -128,11 +128,12 @@
     color: #F948B2;
 }
 .gamer-description{
-    font-size: 1rem;
-    font-weight:500;
+    font-size: 18px;
+    font-weight: normal;
     width: 600px;
     margin-bottom: 30px;
     width: 520px;
+    font-family: Open Sans;
 }
 .gamer-subtitle{
     text-align: right;
@@ -285,10 +286,12 @@
 }
 /* ========================= Styles sponser sections ================================== */
 .sponser-img-content{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
 }
 .sponser-img{
     display: flex;
@@ -313,8 +316,10 @@
 }
 
 @media screen and (max-width: 576px) {
-    .nav-section, .nav-content{
+    .nav-section, .nav-content, .gamer-section, .video-section,.play-section, .play-online-section, .career-section{
         flex-direction: column;
+        align-items: center;
+        gap: 50px;
     }
     .header{
         box-shadow: none;
@@ -325,6 +330,108 @@
     .container{
         width: 576px;
         margin: auto;
+    }
+    /* ============= Banner Section ================ */
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+    .banner-img img{
+        width: 500px;
+        height: 100%
+    }
+    .banner-content{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    /* ============== Gamer Sections ==================== */
+    .gamer-section{
+        margin: 50px;
+    }
+   .gamer-img img{
+    width: 500px;
+    height: auto;
+   }
+   .gamer-content {
+    width: auto;
+    text-align: center;
+   }
+   .gamer-title{
+    font-size: 2rem;
+    font-weight: 700;
+   }
+   .gamer-description{
+    font-size: 18px;
+   }
+   .gamer-subtitle{
+    text-align: center;
+   }
+   /* ============= Play Sections ======================= */
+   .play-section-content{
+    text-align: center;
+    padding: 0;
+   }
+   .play-section-img .play-img1{
+    width: 350px;
+    height: auto;
+   }
+   .play-section-img .play-img2 img{
+    width: 150px;
+    height: auto;
+   }
+   .play-section-img .play-img2{
+    position: relative;
+    bottom: 100px;
+    right: 20%;
+   }
+   .play-online-section .online-img1{
+    width: 350px;
+    height: auto;
+   }
+   .play-online-section .online-img2 img{
+    width: 150px;
+    height: auto;
+    position: relative;
+    bottom: 100px;
+   }
+   .play-section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+   }
+   .play-online-section .online-img2{
+    height: 100px;
+   } 
+   .play-section-description{
+   
+    text-align: center;
+   }
+   /* ===================== Career Sections ============================= */
+   .career-content{
+   padding: 0 50px;
+   }
+   .career-img img{
+    width: 450px;
+    height: auto;
+   }
+/* ================== Spoonser Sections =================================== */
+    .sponser-img-content{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 50px 50px;
+   
+    }
+    .sponser-img img{
+        width: 30px;
+        height: 30px;
+    }
+    .sponser-img p{
+        font-size: 0.70rem;
+        font-weight: normal;
+        margin: 0;
+        padding-left: 5px;
     }
 }
 
