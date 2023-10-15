@@ -291,6 +291,7 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+    margin: 50px;
     
 }
 .sponser-img{
@@ -301,9 +302,9 @@
     padding: 5px 10px;
 }
 .sponser-img p{
- font-size: 1.5rem;
- font-weight: 500;
- margin-left: 15px;
+ font-size: 1rem;
+ font-weight: normal;
+ margin: 0 0 0 15px;
 }
 .sponser-img img{
     width: 60px;
@@ -314,6 +315,60 @@
     justify-content: space-around;
     margin-bottom: 100px;
 }
+
+.footer{
+    background-color: black;
+}
+/* ================ Footer Sections ========================================== */
+.amar{
+    color: aliceblue;
+}
+.nav-logo{
+    text-align: center;
+    padding-top: 100px;
+}
+.service-item{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-bottom: 50px;
+    
+}
+.service-item li{
+    color: aliceblue;
+    list-style: none;
+    text-align: center;
+}
+.social-media{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.terms-content{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin: 50px;
+
+}
+.terms-content li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: rgb(187, 187, 188);
+}
+.copyright{
+    text-align: center;
+    color: rgb(187, 187, 188) ;
+    padding-bottom: 100px;
+}
+
 
 @media screen and (max-width: 576px) {
     .nav-section, .nav-content, .gamer-section, .video-section,.play-section, .play-online-section, .career-section{
@@ -433,6 +488,18 @@
         margin: 0;
         padding-left: 5px;
     }
+
+    .service-item{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+    .terms-content{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 15px;
+    }
+
+
 }
 
 
